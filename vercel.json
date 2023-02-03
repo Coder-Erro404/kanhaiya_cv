@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "kanhaiya_app/wsgi.py",
+      "src": "kanhaiya/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "kanhaiya_app/wsgi.py"
+      "dest": "kanhaiya/wsgi.py"
     }
   ]
 }
