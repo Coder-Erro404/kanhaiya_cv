@@ -1,16 +1,9 @@
-# example/views.py
-from datetime import datetime
+from django.shortcuts import render
 
-from django.http import HttpResponse
+
+# --------------- MAIN WEB PAGES -----------------------------
 
 def index(request):
-    now = datetime.now()
-    html = f'''
-    <html>
-        <body>
-            <h1>Hello from Vercel!</h1>
-            <p>The current time is { now }.dfgdfgdf</p>
-        </body>
-    </html>
-    '''
-    return HttpResponse(html)
+
+	return render(request, 'index.html')
+	 
