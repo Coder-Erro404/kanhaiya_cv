@@ -1,26 +1,24 @@
 
-
 {
-  
+  "version": 2,
+  "name": "kanhaiya_app",
   "builds": [
     {
       "src": "kanhaiya/wsgi.py",
-      "use": "@vercel/python",
-      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+      "use": "@ardnt/now-python-wsgi",
+      "config": {
+        "maxLambdaSize": "30mb"
+      }
     },
     {
       "src": "build_files.sh",
-      "use": "@vercel/static-build",
+      "use": "@vercel/static",
       "config": {
-        "distDir": "staticfiles_build"
+        "distDir": "staticfiles"
       }
     }
   ],
   "routes": [
-    {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
-    },
     {
       "src": "/(.*)",
       "dest": "kanhaiya/wsgi.py"
