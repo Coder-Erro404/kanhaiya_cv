@@ -25,7 +25,7 @@ SECRET_KEY = 'nx&9!9y2qg#+wzacv*g#uo-4l$!jchxblzi-)w+2*_-)#-3mq9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','https://kanhaiya-cv.vercel.app/']
+ALLOWED_HOSTS = ['*','kanhaiya-cv.vercel.app']
 
 
 # Application definition    
@@ -125,7 +125,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
