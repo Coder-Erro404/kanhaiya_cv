@@ -1,19 +1,16 @@
 {
   "version": 2,
-  "name": "now-django-staticfiles",
   "builds": [
     {
-      "src": "now_build_staticfiles.sh",
-      "use": "@now/static-build",
-      "config": {
-        "distDir": "staticfiles_build"
-      }
+      "src": "kanhaiya/wsgi.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
     {
-      "src": "kanhaiya/wsgi.py",
-      "use": "@ardnt/now-python-wsgi",
+      "src": "build_files.sh",
+      "use": "@vercel/static-build",
       "config": {
-        "maxLambdaSize": "30mb"
+        "distDir": "staticfiles_build"
       }
     }
   ],
