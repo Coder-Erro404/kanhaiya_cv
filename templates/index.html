@@ -12,86 +12,66 @@
     <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css">
   </head>
   <body>
+  
+
     <!-- header section starts -->
     <header class="header" id="header">
       <a><i class="menu material-icons"> menu </i></a>
       <nav class="navbar">
         <a href="#">home</a>
-        <a href="#portfolio">portfolio</a>
-        <a href="#resume">resume</a>
         <a href="#about">about</a>
+        <a href="#resume">resume</a>
+        <a href="#portfolio">portfolio</a>
         <a href="#contact">contact</a>
       </nav>
     </header>
     <!-- header section ends -->
-
+    
     <!-- home section starts -->
-    <section class="home" id="home">
+    
+    <section class="home" id="home" onclick>
+      
+      </div>
       <h1 class="hero-text">
         hello, i'm <br />
         <span>kanhaiya khansare</span>
       </h1>
       <p>and this is my resume</p>
+          <!-- emulate website -->
+          <div id=background_0 onclick> </div>
+          <!--------------------->
+      
     </section>
     <!-- home section ends -->
-
-    <!-- portfolio section starts -->
-    <section class="portfolio" id="portfolio">
-      <h1 class="heading">featured <span>portfolio</span></h1>
-
-      <div class="box-container">
-        <div class="box">
-          <div class="image">
-            <img src="images/portfolio-1.jpeg" alt="" />
-            <div class="content">
-              <h2>project #1</h2>
-            </div>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="images/portfolio-2.jpeg" alt="" />
-            <div class="content">
-              <h2>project #2</h2>
-            </div>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="images/portfolio-3.jpeg" alt="" />
-            <div class="content">
-              <h2>project #3</h2>
-            </div>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="images/portfolio-4.jpeg" alt="" />
-            <div class="content">
-              <h2>project #4</h2>
-            </div>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="images/portfolio-5.jpeg" alt="" />
-            <div class="content">
-              <h2>project #5</h2>
-            </div>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="images/portfolio-6.jpeg" alt="" />
-            <div class="content">
-              <h2>project #6</h2>
-            </div>
-          </div>
-        </div>
+<!-- about section starts -->
+<section class="about" id="about">
+  <div class="box-container">
+    <div class="box">
+      <div class="image">
+        <img src="{% static 'img/kanhaiya1.jpg' %}" alt="" />
       </div>
-    </section>
-    <!-- portfolio section ends -->
+    </div>
+    <div class="box">
+      <h1 class="heading">about <span>me</span></h1>
+      <p>
+        QA Tester with 2 years of experience with full system development life cycle experience including designing, 
+        developing and implementing multiple test cases and plans. specializing in application testing, SQL, automation,
+         and product development.Quality Assurance and Software Testing experience both 
+         Web-Based application and mobile applications . Experienced with SDLC including traditional Waterfall 
+         and Agile/Scrum methodologies.
+        Proven expertise in ensuring software reliability and performance by conducting quality assurance , 
+        including software test case development and execution, implementation of test plans, and bug tracking.
+      </p>
+      <p>
 
+      </p>
+      <a href="#" class="btn">hire me</a>
+      <a href="#" class="btn">download CV</a>
+    </div>
+  </div>
+</section>
+<!-- about section ends -->
+  
     <!-- resume section starts -->
     <section class="resume" id="resume">
       <h1 class="heading">my <span>resume</span></h1>
@@ -100,12 +80,12 @@
           <h2>education</h2>
           <div class="box">
             <span><i class="material-icons"> calendar_today </i> Jan 2018 - Jan 2019</span>
-            <h3>masters in computer science</h3>
+            <h3>msc. information technology (artificial intelligence)</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ullam, sed aperiam
               molestiae autem nulla.
             </p>
-            <p class="university">new york university</p>
+            <p class="university">university of mumbai</p>
           </div>
           <div class="box">
             <span><i class="material-icons"> calendar_today </i> Jan 2019 - Jan 2020</span>
@@ -178,31 +158,63 @@
     </section>
     <!-- resume section ends -->
 
-    <!-- about section starts -->
-    <section class="about" id="about">
-      <div class="box-container">
-        <div class="box">
-          <div class="image">
-            <img src="images/hero-image.jpeg" alt="" />
+    
+  <!-- portfolio section starts -->
+  <section class="portfolio" id="portfolio">
+    <h1 class="heading">featured <span>portfolio</span></h1>
+
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img src="{% static 'img/AI.gif' %}" alt="" />
+          <div class="content">
+            <h2>project #1</h2>
           </div>
         </div>
-        <div class="box">
-          <h1 class="heading">about <span>me</span></h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam corporis minima
-            temporibus iste unde dolor beatae, delectus architecto et? Assumenda sint quas dicta
-            itaque ipsa. Quae cum reiciendis ut quo.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo necessitatibus
-            eius? In, nesciunt veritatis?
-          </p>
-          <a href="#" class="btn">hire me</a>
-          <a href="#" class="btn">download CV</a>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="images/portfolio-2.jpeg" alt="" />
+          <div class="content">
+            <h2>project #2</h2>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- about section ends -->
+      <div class="box">
+        <div class="image">
+          <img src="images/portfolio-3.jpeg" alt="" />
+          <div class="content">
+            <h2>project #3</h2>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="images/portfolio-4.jpeg" alt="" />
+          <div class="content">
+            <h2>project #4</h2>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="images/portfolio-5.jpeg" alt="" />
+          <div class="content">
+            <h2>project #5</h2>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="images/portfolio-6.jpeg" alt="" />
+          <div class="content">
+            <h2>project #6</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- portfolio section ends -->
 
     <!-- clients section starts -->
     <section class="clients" id="clients">
@@ -348,16 +360,13 @@
         <div class="col">
           <h2>my contact details</h2>
           <p>email</p>
-          <span>site@gmail.com</span>
+          <span>kkhansare@gmail.com</span>
           <br />
           <br />
           <p>phone</p>
-          <span>+30 976 1382 9921</span>
+          <span>+91 8898887276</span>
           <br />
-          <br />
-          <p>fax</p>
-          <span>+30 976 1382 9921</span>
-          <br />
+
           <br />
           <p>address</p>
           <span
@@ -373,7 +382,7 @@
     <!-- footer section starts -->
     <section class="footer" id="footer">
       <div class="socials">
-        <ion-icon name="logo-google"></ion-icon>
+        <ion-icon name="logo-google" ></ion-icon>
         <ion-icon name="logo-twitter"></ion-icon>
         <ion-icon name="logo-youtube"></ion-icon>
         <ion-icon name="logo-linkedin"></ion-icon>
@@ -387,6 +396,7 @@
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
     ></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.2.1.min.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <!-- local js file -->
        <!-- Bootstrap core JavaScript -->
