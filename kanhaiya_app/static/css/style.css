@@ -392,14 +392,28 @@
   .resume .col .box p {
     font-size: 1.7rem;
     color: var(--dark-gray);
-    margin-top: 1rem;
+   
     line-height: 1.5;
     text-transform: none;
+  }
+  .resume .col .box h4
+  {
+    font-size: 1.5rem;
+    color: red;
+
   }
   
   .resume .col .box .university {
     color: var(--light-gray);
     text-transform: capitalize;
+  }
+
+  .resume .col .box ul li {
+    padding-left: 2rem;
+    background-image: url(star.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
   }
   /* resume */
   
@@ -407,6 +421,7 @@
   .about .box-container .box .image {
     height: 100%;
     overflow: hidden;
+    border-style: groove;
   }
   
   .about .box-container .box .image img {
