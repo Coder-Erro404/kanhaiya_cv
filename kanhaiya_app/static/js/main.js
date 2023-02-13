@@ -144,7 +144,7 @@ F__ID();
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["kanhaiya", "Web Designer", "Q & A", "Test Engg."];
+const textArray = ["kanhaiya", "Web Designer", "Q.A", "Tester"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000; // Delay between current and next text

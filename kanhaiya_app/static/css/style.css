@@ -352,8 +352,8 @@
   /* resume */
   .resume .col .box {
     background-color: var(--light-bg);
-    padding: 2.5rem;
-    margin: 2rem 0;
+    padding: 1.5rem;
+    margin: 1rem 0;
     box-shadow: var(--box-shadow);
   }
   
@@ -367,7 +367,8 @@
     font-size: 2.5rem;
     color: var(--white);
     font-weight: 200;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
+    font-weight: bold;
   }
   
   .resume .col .box span {
@@ -385,7 +386,7 @@
   .resume .col .box h3 {
     color: var(--yellow);
     font-size: 2rem;
-    margin-top: 1rem;
+    
     font-weight: 400;
   }
   
@@ -399,7 +400,7 @@
   .resume .col .box h4
   {
     font-size: 1.5rem;
-    color: red;
+    color: white;
 
   }
   
@@ -408,13 +409,21 @@
     text-transform: capitalize;
   }
 
-  .resume .col .box ul li {
-    padding-left: 2rem;
-    background-image: url(star.svg);
-    background-position: 0 0;
-    background-size: 1.6rem 1.6rem;
-    background-repeat: no-repeat;
-  }
+  .resume .col .box  ul
+  {
+
+    padding-inline-start: 2.2ch;
+    font-size: 1.7rem;
+    color: #8f8f8f;
+   
+    line-height: 1.5;
+    text-transform: none;
+}
+.resume .col .box  li
+{
+  font-size: 1.5rem;
+}
+  
   /* resume */
   
   /* about */
@@ -772,3 +781,4 @@
   99% { background-color: transparent; }
   100%  { background-color: #ccc; }
 }
+
