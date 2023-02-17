@@ -6,7 +6,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: none;
     transition: 0.2s linear;
   }
   
@@ -235,14 +235,14 @@
 }
 
 
-.box1{
+/* .box1{
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-}
+} */
 
-.box1 span{
+/* .box1 span{
 	display: block;
 	width: 20px;
 	height: 20px;
@@ -276,7 +276,7 @@
 		opacity: 0;
 		transform: rotate(45deg) translate(20px, 20px);
 	}
-}
+} */
   /* header */
   
   /* portfolio */
@@ -286,7 +286,7 @@
     font-size: 3rem;
     font-weight: 200;
     text-align: center;
-    padding-bottom: 4rem;
+    padding-bottom: 0rem;
   }
   
   .heading span {
