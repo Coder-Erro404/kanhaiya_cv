@@ -286,7 +286,7 @@
     font-size: 3rem;
     font-weight: 200;
     text-align: center;
-    padding-bottom: 0rem;
+    padding-bottom: 2rem;
   }
   
   .heading span {
@@ -534,7 +534,7 @@
   
   .services .box-container .box {
     background-color: var(--light-bg);
-    padding: 2.5rem;
+    padding: 1.5rem;
     text-align: center;
     box-shadow: var(--box-shadow);
   }
@@ -552,7 +552,7 @@
     font-size: 2rem;
     color: var(--white);
     font-weight: 400;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   
   .services .box-container .box p {
