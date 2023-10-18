@@ -706,7 +706,7 @@
   .contact .col-container .col textarea {
     background-color: #3333335c;
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem; 
     border-radius: 0.5rem;
     font-size: 1.7rem;
     color: var(--dark-gray);
