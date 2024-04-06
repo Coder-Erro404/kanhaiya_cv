@@ -63,7 +63,6 @@
   /* home */
 
   .home {
-    height: 100vh;
  
     background-size: cover;
     background-position: center;
@@ -88,14 +87,14 @@
     font-weight: 800;
   }
   
-  .home p {
+  .about p {
     color: #fff;
     font-size: 1.5rem;
     margin-top: 2rem;
     
     letter-spacing: 0.3rem;
   }
-  .home p {
+  .about p {
     font-size: 7rem;
     padding: 0.5rem;
     font-weight: bold;
@@ -103,20 +102,20 @@
     text-align: center;
     overflow: hidden;
   }
-  .home p span.typed-text {
+  .about p span.typed-text {
     font-weight: normal;
     color: var(--yellow);
     font-family:cursive;
     
   }
-  .home p span.cursor {
+  .about p span.cursor {
     display: inline-block;
     background-color: #ccc;
     margin-left: 0.1rem;
     width: 3px;
     animation: blink 1s infinite;
   }
-  .home p span.cursor.typing {
+  .about p span.cursor.typing {
     animation: none;
   }
   @keyframes blink {
@@ -387,7 +386,7 @@
   
   .resume .col .box span i {
     padding-right: 0.5rem;
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
   .fa-briefcase:before {
     content: "\f0b1";
@@ -436,7 +435,7 @@
     font-size: 1.7rem;
     color: #8f8f8f;
    
-    line-height: 1.5;
+    line-height: 2;
     text-transform: none;
 }
 .resume .col .box  li
@@ -453,7 +452,6 @@
   .about .box-container .box .image {
     height: 100%;
     overflow: hidden;
-    border-style: groove;
   }
   
   .about .box-container .box .image img {
@@ -469,18 +467,23 @@
   }
   
   .about .box-container .box p {
-    color: var(--dark-gray);
-    margin-bottom: 2rem;
-    font-size: 1.7rem;
+    color: white;
+    font-size: 6rem;
     letter-spacing: 0.1rem;
     line-height: 1.5;
     text-transform: none;
+  }
+  .about .box-container .box .texts
+  {
+    color: #ffffffc2;
+    font-size: 2rem;
+    text-align: justify;
   }
   
   /* utlity class */
   .btn {
     background-color: #bac96473;
-    font-size: 1.7rem;
+    font-size: 3rem;
     padding: 1rem 2rem;
     border-radius: 2rem;
     color: #ffffff ;
@@ -636,7 +639,6 @@
     
     @media screen and (max-width:650px){
      .skills-container{
-     grid-tempLate-columns:2fr;
      padding: 2rem 50px;
      }
     }
@@ -853,4 +855,40 @@
   99% { background-color: transparent; }
   100%  { background-color: #ccc; }
 }
+.icons {
+  display: flex;
+  align-items: center;
+  text-align:center;
 
+}
+
+.box .icons ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align:center;
+  list-style: none;
+  width: 75px;
+}
+
+
+
+.box .icons a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  height: 70px;
+  width: 70px;
+
+  border-radius: 50%;
+  font-size: 60px;
+  color: #fff;
+  transition: 0.0s ease;
+}
+
+.box .icons a:hover{
+  font-size: 50px;
+  color: #01FFF4;
+  box-shadow: 0 0 40px #01FFF4;
+}

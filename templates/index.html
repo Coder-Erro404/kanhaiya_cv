@@ -25,7 +25,7 @@
       <nav class="navbar">
         <a href="#">home</a>
         <a href="#about">about</a>
-        <a href="#resume">resume</a>
+        <a href="#Profile">Profile</a>
         <a href="#services">Skill</a>
         <!-- <a href="#portfolio">portfolio</a> -->
         <a href="#contact">contact</a>
@@ -36,18 +36,11 @@
     <!-- home section starts -->
     
     <section class="home" id="home" onclick>
-        <p>Hello I'm <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+      <div id=background_0 onclick> </div>
+
           <!-- emulate website -->
-          <div id=background_0 onclick> </div>
           <!--------------------->
-          <div class="social-menu">
-          <ul>
-              <li><a href="https://github.com/Coder-Erro404" target="blank"><i class="fab fa-github"></i></i></a></li>
-              <li><a href="https://www.linkedin.com/in/kanhaiya-khansare-47a26a102" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
-              <li><a href="https://wa.me/918898887276/?text=Hi Sam, Whatsup“"><i class="fab fa-whatsapp" target="blank"></i></a></li>
-              <li><a href="tel: +918898887276" target="blank"><i class="fa fa-phone "></i></a></li>
-          </ul>
-      </div>
+
       <!-- <div class="box1">
         <span></span>
         </div> -->
@@ -57,60 +50,72 @@
 <section class="about" id="about">
   <div class="box-container">
     <div class="box">
-      <div class="image">
-        <img src="{% static 'img/kanhaiya1.jpg' %}" alt="" />
-      </div>
+      <p>Hello I'm <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+      <p class="texts">
+        Detail-oriented Quality Assurance professional with over three years of hands-on experience in software testing and quality assurance methodologies.
+         Proven track record of ensuring the quality and reliability of software products through comprehensive testing procedures and meticulous attention to detail. 
+         Proficient in test planning, test case design, execution, defect tracking, and regression testing. 
+         Skilled in using various testing tools and methodologies to identify and resolve defects efficiently. 
+         Strong communication and collaboration abilities, adept at working closely with cross-functional teams to deliver high-quality products within tight deadlines.
+          Committed to continuous learning and staying updated with the latest QA trends and technologies to drive process improvements and enhance product quality.
+      </p>
+      <a href="{% static 'data/Resume.pdf' %}" download="Resume.pdf.pdf"class="btn">download CV</a>
+   
     </div>
     <div class="box">
-      <h1 class="heading">About <span>Me</span></h1>
-      <h1 class="heading"><span>Kanhaiya Khansare</span></h1>
-      <p>
-        Over 3 years of experience in quality assurance testing of both mobile and
-        web-based applications using manual procedures and automated tools.
-        Proficient in designing test cases, executing tests, and ensuring product quality
-        across various software projects. Skilled in utilizing automation tools to
-        improve efficiency. Dedicated to delivering high-quality software solutions
-        through rigorous testing methodologies. Passionate about staying updated
-        with industry trends and technologies to enhance testing practices
-      </p>
-      <a href="{% static 'data/Resume.pdf' %}" download="Resume.pdf.pdf"
-      class="btn">download CV</a>
+      <div class="image">
+        <img src="{% static 'img/kanhaiya1.png' %}" alt="" />
+      </div>
     </div>
+    
   </div>
 </section>
 <!-- about section ends -->
   
     <!-- resume section starts -->
-    <section class="resume" id="resume">
-      <h1 class="heading">My <span>Resume</span></h1>
+    <section class="resume" id="Profile">
+      <h1 class="heading">My <span>Profile</span></h1>
       <div class="col-container">
         <div class="col">
           <h2>Professional Experience</h2>
           <div class="box">
-           <h4 >Quality Assurance / Test Engineer</h4> 
             <span><i class="fa fa-briefcase" target="blank">   Sate Development</i><p class="university">Oct 2021 - Present  </p> </span>
+            <h4 >Quality Assurance</h4> 
+
           
           <ul class="list" >
-           <li>Collaborated with cross-functional teams to develop comprehensive test plans and test cases for web and mobile applications.</li> 
-           <li>This experience has equipped me with a strong foundation in manual testing methodologies, a keen analytical mindset.</li> 
-            <li>Conducted regression testing to identify and resolve issues introduced during development.</li>
-            <li>Utilized Jira for defect tracking, reporting, and maintaining detailed documentation.</li>
-            <li>Experience in conducting regression tests to ensure the stability of software after changes</li> 
-            <li>Identified and categorized gaps in software functionality, performance, and alignment with industry standards</li>
-            <li>Engineering requirements to develop test plans for high-volume production cycles and ensure compliance </li> 
+           <li>Collaborated with cross-functional teams to develop comprehensive
+            test plans and test cases for web and mobile applications</li> 
+           <li>This experience has equipped me with a strong foundation in manual
+            testing methodologies, and a keen analytical mindset</li> 
+            <li>Conducted regression testing to identify and resolve issues
+              introduced during development</li>
+            <li>Utilized Jira for defect tracking, reporting, and maintaining detailed
+              documentation.</li>
+            <li>Experience in conducting regression tests to ensure the stability of
+              software after changes.</li> 
+            <li>Identified and categorized gaps in software functionality,
+              performance, and alignment with industry standards</li>
+            <li>Analysed and documented test results, providing valuable insights to the development team and improving overall software quality.</li> 
 
             </ul>
             <p class="university"> Andheri Mumbai  </p>
           </div>
           <div class="box">
-            <h4 >Software Tester</h4> 
+            
             <span><i class="fa fa-briefcase" target="blank">Adnac Business Solutions</i><p class="university">Sept 2018-Aug 2019  </p> </span>
+            <h4 >Software Tester</h4> 
             <h3></h3>
             <ul class="list">
-            <li>Executed test plans and test cases for various software applications, providing valuable feedback to improve software quality.</li> 
-            <li>Collaborated with the development team to reproduce and troubleshoot reported issues, facilitating their resolution.</li>
-            <li>Participated in the design and execution of performance testing to assess system scalability and responsiveness.</li>
-            <li>Documented and communicated test results, including defect reports, test progress, and overall project status.</li>
+            <li>Executed test plans and test cases for various software applications,
+              providing valuable feedback to improve software quality.</li>
+            <li>Collaborated with the development team to reproduce and
+              troubleshoot reported issues, facilitating their resolution.</li>
+            <li>Participated in the design and execution of performance testing to
+              assess system scalability and responsiveness.</li>
+              <li>Documented and communicated test results, including defect
+                reports, test progress, and overall project status</li>
+
             </ul>
             <p class="university">  Goregaon Mumbai</p>
           </div>
@@ -132,28 +137,28 @@
         <div class="col">
           <h2>Education</h2>
           <div class="box">
-            <h4 >M.Sc in Information Technology (A.I)</h4> 
-            <span><i class="fab fa-work" target="blank">Project : Share Market Prediction</i><p class="university">Passed Out Aug-2021 </p> </span>
-            <p >University of Mumbai </p>
+            <span>  <h4 >M.Sc in Information Technology (A.I)</h4> <p class="university">Aug-2021 </p> </span>
+            <span> <p >University of Mumbai </p> </span>
+           
           
           </div>
           <div class="box">
-            <h4>B.Sc in Information Technology</h4>
-            <span><i class="fab fa-work" target="blank">Project : E-Courier Web Application</i><p class="university">Passed Out Jan-2017 </p> </span>
+            <span><h4>B.Sc in Information Technology</h4><p class="university">Jan-2017 </p> </span>
             <p >University of Mumbai </p>
+           
 
          
           
           </div>
           <div class="box">
-            <h4 >Higher Secondary School Certificate ( HSC )</h4> 
-            <span><p class=" fab fa-work university"> Passed Out March-2012 </p> </span>
+            <span> <h4 >Higher Secondary School Certificate ( HSC )</h4><p class=" fab fa-work university"> March-2012 </p> </span>
+           <p>Mumbai </p>
                    
             
           </div>
           <div class="box">
-            <h4>Secondary School Certificate ( SSC )</h4>
-            <span><p class=" fab fa-work university"> Passed Out March-2010  </p> </span>
+            <span> <h4>Secondary School Certificate ( SSC )</h4><p class=" fab fa-work university"> March-2010  </p> </span>
+            <span><p>Mumbai </p></span>
            
             
 
@@ -161,8 +166,8 @@
           </div>
           <h2>Other Certificate</h2>
           <div class="box">
-            <h4>Software Testing Course</h4>
-            <span><p class=" fab fa-work university"> Oct 2017 </p> </span>
+            <span> <h4>Software Testing Course</h4>
+           <p class=" fab fa-work university"> Oct 2018 </p> </span>
             
             <!-- <h4>Project's</h4> -->
             <ul class="list">
@@ -172,17 +177,18 @@
             <p >Garware Institute of Career Education and Development</p>
           </div>
           <div class="box">
-            <h4> Diploma in MS-office </h4>
-            <span><p class=" fab fa-work university"> Aug 2010 </p> </span>
+            <span><h4> Diploma in MS-office </h4>
+           <p class=" fab fa-work university"> Aug 2010 </p> </span>
             
             <!-- <h4>Project's</h4> -->
-            <!-- <ul class="list">
-              <li> Corel-Draw </li>
-                <li>Photoshop</li> 
+            <ul class="list">
+              
+                <li>Ms-Office</li> 
+                <li> Corel-Draw </li>
                 <li>2D-Animation</li> 
                 <li>Flash</li>   
                <li>Basic Web- Designing </li>
-            </ul> -->
+            </ul>
             <p >Anubhav Institute </p>
           </div> 
           <!-- <div class="box">
