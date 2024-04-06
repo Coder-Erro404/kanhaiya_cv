@@ -1,5 +1,5 @@
 * {
-    font-family: 'Segoe UI';
+    font-family: 'math';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -45,8 +45,9 @@
   }
   
   section {
-    padding: 5rem 9%;
+    padding: 7rem 9%;
   }
+  
   #background_0{
             position:fixed;
             top:0;
@@ -105,7 +106,8 @@
   .about p span.typed-text {
     font-weight: normal;
     color: var(--yellow);
-    font-family:cursive;
+    font-family:auto;
+    font-weight: bold;
     
   }
   .about p span.cursor {
