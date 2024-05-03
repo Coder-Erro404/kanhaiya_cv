@@ -146,7 +146,7 @@
   }
   
   .header .navbar a {
-    font-size: 1.2rem;
+    font-size: 2.4rem;
     color: var(--white);
     padding: 0 2rem;
     letter-spacing: 0.3rem;
@@ -404,7 +404,7 @@
   }
   
   .resume .col .box p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--dark-gray);
    
     line-height: 1.5;
@@ -412,7 +412,7 @@
   }
   .resume .col .box h4
   {
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: var(--yellow) ;
     padding-bottom: 10px;
 
@@ -442,7 +442,7 @@
 }
 .resume .col .box  li
 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .resume .col .box .list
   {
@@ -478,7 +478,7 @@
   .about .box-container .box .texts
   {
     color: #ffffffc2;
-    font-size: 2rem;
+    font-size: 2.4rem;
     text-align: justify;
   }
   
@@ -496,6 +496,8 @@
     font-weight: bold
 
   }
+
+
   /* utlity class */
   /* about */
   
@@ -729,14 +731,14 @@
   }
   
   .contact .col-container .col p {
-    font-size: 1.7rem;
+    font-size: 2.2rem;
     color: var(--yellow);
     text-transform: uppercase;
     letter-spacing: 0.1rem;
   }
   
   .contact .col-container .col span {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--dark-gray);
     letter-spacing: 0.1rem;
   }
