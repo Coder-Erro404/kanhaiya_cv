@@ -45,7 +45,7 @@
   }
   
   section {
-    padding: 7rem 9%;
+    padding: 5rem 9%;
   }
   
   #background_0{
@@ -470,7 +470,7 @@
   
   .about .box-container .box p {
     color: white;
-    font-size: 6rem;
+    font-size: 2.5rem;
     letter-spacing: 0.1rem;
     line-height: 1.5;
     text-transform: none;
@@ -478,7 +478,7 @@
   .about .box-container .box .texts
   {
     color: #ffffffc2;
-    font-size: 2.4rem;
+    font-size: 18px;
     text-align: justify;
   }
   
