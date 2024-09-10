@@ -301,15 +301,15 @@
   /* utility class */
   
   .portfolio .box-container .box .image {
-    height: 30rem;
-    overflow: hidden;
-    position: relative;
+    flex-shrink: 0;
+    max-width: 300px; /* Adjust the maximum width */
+    max-height: 400px
   }
   
   .portfolio .box-container .box .image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    border-radius: 10px;
   }
   
   .portfolio .box-container {
@@ -370,7 +370,7 @@
   }
   
   .resume .col h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: var(--white);
     font-weight: 200;
     padding-bottom: 0rem;
@@ -404,7 +404,7 @@
   }
   
   .resume .col .box p {
-    font-size: 2rem;
+    font-size: 16px;
     color: var(--dark-gray);
    
     line-height: 1.5;
@@ -412,7 +412,7 @@
   }
   .resume .col .box h4
   {
-    font-size: 2rem;
+    font-size: 18px;
     color: var(--yellow) ;
     padding-bottom: 10px;
 
@@ -442,7 +442,7 @@
 }
 .resume .col .box  li
 {
-  font-size: 2rem;
+  font-size: 16px;
 }
 .resume .col .box .list
   {
@@ -478,14 +478,14 @@
   .about .box-container .box .texts
   {
     color: #ffffffc2;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
   }
   
   /* utlity class */
   .btn {
     background-color: #bac96473;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 1rem 2rem;
     border-radius: 2rem;
     color: #ffffff ;
@@ -560,7 +560,7 @@
   
   .heading {
         color: var(--white);
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 200;
         text-align: center;
         padding-bottom: 2rem;
@@ -712,7 +712,7 @@
   }
   
   .contact .col-container .col h2 {
-    font-size: 2.5rem;
+    font-size: 16px;
     color: var(--white);
     font-weight: 200;
     padding-bottom: 2rem;
@@ -731,14 +731,14 @@
   }
   
   .contact .col-container .col p {
-    font-size: 2.2rem;
+    font-size: 16px;
     color: var(--yellow);
     text-transform: uppercase;
     letter-spacing: 0.1rem;
   }
   
   .contact .col-container .col span {
-    font-size: 2rem;
+    font-size: 16px;
     color: var(--dark-gray);
     letter-spacing: 0.1rem;
   }
@@ -811,7 +811,7 @@
     .header .navbar a {
       color: var(--dark-bg);
       margin: 0;
-      font-size: 2rem;
+      font-size: 18px;
       margin: 2rem 0;
     }
   
